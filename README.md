@@ -1,3 +1,8 @@
+Fingus
+a fork of Snap!
+
+original license:
+---------------------
 
 Snap! Build Your Own Blocks
 
