@@ -110,8 +110,8 @@ IDE_Morph.uber = Morph.prototype;
 
 IDE_Morph.prototype.setDefaultDesign = function () {
     MorphicPreferences.isFlat = false;
-    SpriteMorph.prototype.paletteColor = new Color(30, 30, 30);
-    SpriteMorph.prototype.paletteTextColor = new Color(230, 230, 230);
+    SpriteMorph.prototype.paletteColor = new Color(20, 20, 20);
+    SpriteMorph.prototype.paletteTextColor = new Color(255, 255, 255);
     StageMorph.prototype.paletteTextColor
         = SpriteMorph.prototype.paletteTextColor;
     StageMorph.prototype.paletteColor = SpriteMorph.prototype.paletteColor;
@@ -150,42 +150,7 @@ IDE_Morph.prototype.setDefaultDesign = function () {
 };
 
 IDE_Morph.prototype.setFlatDesign = function () {
-    MorphicPreferences.isFlat = true;
-    SpriteMorph.prototype.paletteColor = WHITE;
-    SpriteMorph.prototype.paletteTextColor = new Color(70, 70, 70);
-    StageMorph.prototype.paletteTextColor
-        = SpriteMorph.prototype.paletteTextColor;
-    StageMorph.prototype.paletteColor = SpriteMorph.prototype.paletteColor;
-    SpriteMorph.prototype.sliderColor = SpriteMorph.prototype.paletteColor;
-
-    IDE_Morph.prototype.buttonContrast = 30;
-    IDE_Morph.prototype.backgroundColor = new Color(220, 220, 230);
-    IDE_Morph.prototype.frameColor = new Color(240, 240, 245);
-
-    IDE_Morph.prototype.groupColor = WHITE;
-    IDE_Morph.prototype.sliderColor = SpriteMorph.prototype.sliderColor;
-    IDE_Morph.prototype.buttonLabelColor = new Color(70, 70, 70);
-    IDE_Morph.prototype.tabColors = [
-        IDE_Morph.prototype.frameColor,
-        IDE_Morph.prototype.frameColor.lighter(50),
-        IDE_Morph.prototype.groupColor
-    ];
-    IDE_Morph.prototype.rotationStyleColors = IDE_Morph.prototype.tabColors;
-    IDE_Morph.prototype.appModeColor = IDE_Morph.prototype.frameColor;
-    IDE_Morph.prototype.scriptsPaneTexture = null;
-    IDE_Morph.prototype.padding = 1;
-
-    SpriteIconMorph.prototype.labelColor
-        = IDE_Morph.prototype.buttonLabelColor;
-    CostumeIconMorph.prototype.labelColor
-        = IDE_Morph.prototype.buttonLabelColor;
-    SoundIconMorph.prototype.labelColor
-        = IDE_Morph.prototype.buttonLabelColor;
-    TurtleIconMorph.prototype.labelColor
-        = IDE_Morph.prototype.buttonLabelColor;
-
-    SyntaxElementMorph.prototype.contrast = 25;
-    ScriptsMorph.prototype.feedbackColor = new Color(153, 255, 213);
+    console.log("no");
 };
 
 IDE_Morph.prototype.scriptsTexture = function () {
