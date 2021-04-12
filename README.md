@@ -1,5 +1,5 @@
 Fingus, a fork of Snap! that uhhhhhhhhhhhhhhhhhhhh<br><br>
-original license:
+original readme:
 ---------------------
 
 Snap! Build Your Own Blocks
