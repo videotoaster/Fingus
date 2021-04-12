@@ -1,6 +1,4 @@
-Fingus
-a fork of Snap!
-
+Fingus, a fork of Snap! that uhhhhhhhhhhhhhhhhhhhh<br><br>
 original license:
 ---------------------
 
